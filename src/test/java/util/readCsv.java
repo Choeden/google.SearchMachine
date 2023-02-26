@@ -13,7 +13,7 @@ public String password;
 public static final String csvfile="./src/test/java/user.csv";
 public static void main(String[]args) {
 	readCsv rc = new readCsv();
-	rc.readCredentials("paul");
+	rc.readCreddentials("paul");
 	
 	
 }
@@ -41,3 +41,5 @@ while((line=br.readLine())!=null) {
 	}
 }
 }
+
+//hello papi
