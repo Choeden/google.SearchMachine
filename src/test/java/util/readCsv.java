@@ -23,7 +23,8 @@ public void readCreddentials(String customer) {
 	String delimitter=",";
 
 	
-	try(BufferedReader br=new BufferedReader(new FileReader(cvsfile))){
+	try(BufferedReader br=new BufferedReader(new FileReader(csvfile))){
+		
 while((line=br.readLine())!=null) {
 	String[] userLine=line.split(delimitter);
 	if(userLine[2].equals(customer)){
